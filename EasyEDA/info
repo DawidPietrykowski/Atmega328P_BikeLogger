@@ -1,0 +1,375 @@
+{
+  "uuid": "0921ebe16bfa85bcc21cbe3d64851f8a",
+  "path": "Offline/bike_meter",
+  "name": "bike_meter",
+  "content": "",
+  "created_at": "2021-02-28 21:53:17",
+  "updated_at": "2021-08-10 01:00:41",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "274ed205a6e8854a399e0ff2a5077f5a",
+      "title": "schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "339fe2cd55e0c1cf9903870c08bcace8": 2,
+        "b0248eb51e084227889f2cb84eab79c4": 3,
+        "a37303245718486cbf4e6626ccab03a7": 1,
+        "b5225411791e4329bf6cb5f2f00a6069": 1,
+        "3f96fb0bcd7d42c7bde96cdcd9ce9df0": 3,
+        "d5d786fead314e01b3a74d7555945c26": 1,
+        "892aa1897e534e1a91d0c0013b759e2b": 1,
+        "d9bdca72406e40ca9e80b765f65c348e": 1,
+        "1deece05b02b487abe62d69be193616b": 1,
+        "479a6574d2db4ffbd83445509005d8be": 2,
+        "fcaba4851eda4ca19d4326a668633a30": 2,
+        "8bcad3da750e41008f0bb2635249ede0": 1,
+        "5b9620699ada415aa1c36c115af1d65d": 2,
+        "54c66c2e8d684f70b5499251d8ebde63": 1,
+        "67082a4ee642ac71e2dcdf6758d8dd66": 1,
+        "4e5e5775fd634dd48141eafc77c26e7a": 1,
+        "29b86dd421794b8b84dd8b62ded9170d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SD",
+          1,
+          "6PIN",
+          "S3",
+          {
+            "puuid": "13f8ab6dc2c24b1b84a60f4e6420d271",
+            "uuid": ""
+          }
+        ],
+        [
+          "KA75330",
+          1,
+          "TO-92(TO-92-3)",
+          "U6",
+          {
+            "BOM_Manufacturer Part": "KA75330",
+            "puuid": "cae69ecf8d414f29aa93c449d51c1369",
+            "uuid": "1deece05b02b487abe62d69be193616b"
+          }
+        ],
+        [
+          "1u",
+          3,
+          "2.5MM CERAMIC CAP",
+          "C3,C5,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5eef8147c842491388d17adf8c633cc1",
+            "uuid": "3f96fb0bcd7d42c7bde96cdcd9ce9df0"
+          }
+        ],
+        [
+          "A42",
+          1,
+          "A42 2.54",
+          "BUZZ1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KEC",
+            "BOM_Manufacturer Part": "2n3904S-RTK/PS",
+            "BOM_Supplier Part": "C18536",
+            "puuid": "dfe00c226a4a4603b796e82693e2e347",
+            "uuid": "4e5e5775fd634dd48141eafc77c26e7a"
+          }
+        ],
+        [
+          "420uF",
+          2,
+          "CAPACITOR",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "dbe7ff1e4cd14a78b5afb474d14bba10",
+            "uuid": "5b9620699ada415aa1c36c115af1d65d"
+          }
+        ],
+        [
+          "BUZZER",
+          1,
+          "BUZZER-12MM-NS-KIT",
+          "1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "27d6707ea0f24192bbd3285861a88062",
+            "uuid": "8bcad3da750e41008f0bb2635249ede0"
+          }
+        ],
+        [
+          "LDO",
+          1,
+          "3.3V LDO REGULATOR",
+          "3.3V",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Manufacturer Part": "CJ78L05",
+            "BOM_Supplier Part": "C2079",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "13913db5363d43529aa93c1d6cdd3887",
+            "uuid": "29b86dd421794b8b84dd8b62ded9170d"
+          }
+        ],
+        [
+          "5VBOOST",
+          1,
+          "BOOST5V",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "96dd518dd0294a8db67c360dd75c7e3d",
+            "uuid": "54c66c2e8d684f70b5499251d8ebde63"
+          }
+        ],
+        [
+          "SWITCH",
+          2,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS7.5",
+          "SAVE1,RESET1",
+          {
+            "BOM_Supplier Part": "C59982",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "button6*6*8",
+            "puuid": "dce469acea214c44ac101e294d1c2ff5",
+            "uuid": "339fe2cd55e0c1cf9903870c08bcace8"
+          }
+        ],
+        [
+          "LM358P",
+          2,
+          "DIP-8_L9.4-W6.4-P2.54-LS9.1-BL",
+          "MAGNET1,FOLLOW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "LM358P",
+            "BOM_Supplier Part": "C5213",
+            "puuid": "a608682cecad4d9a89189bf08055dd88",
+            "uuid": "479a6574d2db4ffbd83445509005d8be"
+          }
+        ],
+        [
+          "SENSOR",
+          1,
+          "3 PIN",
+          "HALL1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "64b9df5cadc340429133ad42206860a0",
+            "uuid": "892aa1897e534e1a91d0c0013b759e2b"
+          }
+        ],
+        [
+          "BATTERY",
+          1,
+          "2PIN",
+          "LI-PO1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "CR1220-2",
+            "BOM_Supplier Part": "C70381",
+            "puuid": "5db12ad2eeed49d5b35ad8fa1684fbf1",
+            "uuid": "67082a4ee642ac71e2dcdf6758d8dd66"
+          }
+        ],
+        [
+          "LED",
+          1,
+          "LED-TH_BD5.8-P2.54-L-RD",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d6ccdb35e5e143d0ae1fb671ef122afa",
+            "uuid": "a37303245718486cbf4e6626ccab03a7"
+          }
+        ],
+        [
+          "220",
+          2,
+          "1/8W RESISTOR",
+          "R3,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "53491c0e52fe46d0920ce8837fa31a20",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "1/8W RESISTOR",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "53491c0e52fe46d0920ce8837fa31a20",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "UART",
+          1,
+          "USB_UART_CP2102",
+          "USB1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bda8f6289bd4c6e8b18c280d4afb330",
+            "uuid": "b5225411791e4329bf6cb5f2f00a6069"
+          }
+        ],
+        [
+          "8MHz",
+          1,
+          "4 MHZ OSCILLATOR",
+          "EXT1",
+          {
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "717-7A-8.000MAAE-T",
+            "BOM_Manufacturer": "TXC Corporation",
+            "BOM_Manufacturer Part": "7A-8.000MAAE-T",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7b447f3b59184c36bd1ae4cadacd71c1",
+            "uuid": "d5d786fead314e01b3a74d7555945c26"
+          }
+        ],
+        [
+          "ATMEGA328",
+          1,
+          "DIP-28_300MIL",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-PU",
+            "BOM_Supplier Part": "C33901",
+            "puuid": "ab9d986ee2494220aa39813d1dbc1086",
+            "uuid": "d9bdca72406e40ca9e80b765f65c348e"
+          }
+        ],
+        [
+          "POT",
+          2,
+          "POTENTIOMETER_TRIMMER_BOURNS_3296W",
+          "BATT1,HALL_BIAS1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "eee85a1d2be3415b96ab6ad98a40700c",
+            "uuid": "fcaba4851eda4ca19d4326a668633a30"
+          }
+        ]
+      ],
+      "updateTime": 1615037032,
+      "createTime": 1614545618,
+      "histories": [],
+      "created_at": "2021-02-28 21:53:38",
+      "updated_at": "2021-03-06 14:23:52"
+    },
+    {
+      "uuid": "260acc7c488243d3a02a2a8f712bcaf1",
+      "puuid": "0921ebe16bfa85bcc21cbe3d64851f8a",
+      "title": "pcb1",
+      "filename": "pcb1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "27d6707ea0f24192bbd3285861a88062": 1,
+        "cae69ecf8d414f29aa93c449d51c1369": 1,
+        "5eef8147c842491388d17adf8c633cc1": 3,
+        "dfe00c226a4a4603b796e82693e2e347": 1,
+        "dbe7ff1e4cd14a78b5afb474d14bba10": 2,
+        "13913db5363d43529aa93c1d6cdd3887": 1,
+        "96dd518dd0294a8db67c360dd75c7e3d": 1,
+        "dce469acea214c44ac101e294d1c2ff5": 2,
+        "a608682cecad4d9a89189bf08055dd88": 2,
+        "64b9df5cadc340429133ad42206860a0": 1,
+        "5db12ad2eeed49d5b35ad8fa1684fbf1": 1,
+        "d6ccdb35e5e143d0ae1fb671ef122afa": 1,
+        "53491c0e52fe46d0920ce8837fa31a20": 3,
+        "1bda8f6289bd4c6e8b18c280d4afb330": 1,
+        "7b447f3b59184c36bd1ae4cadacd71c1": 1,
+        "ab9d986ee2494220aa39813d1dbc1086": 1,
+        "eee85a1d2be3415b96ab6ad98a40700c": 2,
+        "13f8ab6dc2c24b1b84a60f4e6420d271": 1
+      },
+      "BOM": [],
+      "updateTime": 1615065495,
+      "createTime": 1614557461,
+      "histories": [],
+      "created_at": "2021-03-01 01:11:01",
+      "updated_at": "2021-03-06 22:18:15"
+    },
+    {
+      "uuid": "2404183fb3d8bffa7eb4c76392116527",
+      "puuid": "0921ebe16bfa85bcc21cbe3d64851f8a",
+      "title": "pcb2",
+      "filename": "pcb2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "27d6707ea0f24192bbd3285861a88062": 1,
+        "cae69ecf8d414f29aa93c449d51c1369": 1,
+        "5eef8147c842491388d17adf8c633cc1": 3,
+        "dfe00c226a4a4603b796e82693e2e347": 1,
+        "dbe7ff1e4cd14a78b5afb474d14bba10": 2,
+        "13913db5363d43529aa93c1d6cdd3887": 1,
+        "96dd518dd0294a8db67c360dd75c7e3d": 1,
+        "dce469acea214c44ac101e294d1c2ff5": 2,
+        "a608682cecad4d9a89189bf08055dd88": 2,
+        "64b9df5cadc340429133ad42206860a0": 1,
+        "5db12ad2eeed49d5b35ad8fa1684fbf1": 1,
+        "d6ccdb35e5e143d0ae1fb671ef122afa": 1,
+        "53491c0e52fe46d0920ce8837fa31a20": 3,
+        "1bda8f6289bd4c6e8b18c280d4afb330": 1,
+        "7b447f3b59184c36bd1ae4cadacd71c1": 1,
+        "ab9d986ee2494220aa39813d1dbc1086": 1,
+        "eee85a1d2be3415b96ab6ad98a40700c": 2,
+        "13f8ab6dc2c24b1b84a60f4e6420d271": 1
+      },
+      "BOM": [],
+      "updateTime": 1615065496,
+      "createTime": 1615055704,
+      "histories": [],
+      "created_at": "2021-03-06 19:35:04",
+      "updated_at": "2021-03-06 22:18:16"
+    }
+  ],
+  "sort": [],
+  "title": "bike_meter",
+  "foldername": "bike_meter",
+  "schfilename": "bike_meter.json",
+  "schfilemtime": 1628550042017
+}
